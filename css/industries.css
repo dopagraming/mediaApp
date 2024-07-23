@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+.main-p {
+    font-size: 32px !important;
+}
+}
+.main-p + span {
+    top: 110px !important;
+}
+h5 {
+    color: gold;
+    font-weight: bold;
+}
+.h5-secound-color {
+    color: #5E35B1;
+}
+span:not(footer span) {
+    color: gold !important;
+    font-weight: bold;
+}
+.span-secound-color {
+    color: #5E35B1 !important;
+    font-weight: bold;
+}
+@media (max-width: 991px) {
+    .width-100 {
+        width: 100%;
+    }
+    .text-align-center {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .flex-direction-column {
+        flex-direction: column;
+    }
+    .ms-5 {
+        margin-left: 0 !important;
+    }
+}
+
